@@ -41,6 +41,11 @@ function App() {
     setnextURL(data.next);
     setPrevURL(data.previous);
     setLoading(false);
+    // 画面の一番上にスクロール
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
   const handlePrevPage = async () => {
     if (!prevURL) return;
@@ -50,6 +55,11 @@ function App() {
     setnextURL(data.next);
     setPrevURL(data.previous);
     setLoading(false);
+    // 画面の一番上にスクロール
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   return (
