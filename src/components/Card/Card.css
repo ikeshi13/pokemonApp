@@ -1,5 +1,5 @@
 .card {
-  width: 290px;
+  width: 300px;
   box-shadow: 0px 0px 35px 0px #777777;
   border-radius: 10px;
   background-color: white;
@@ -13,4 +13,9 @@
 
 .cardinfo {
   text-align: center;
+}
+.cardImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
